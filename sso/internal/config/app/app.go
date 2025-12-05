@@ -4,9 +4,9 @@ import (
 	"log/slog"
 	"time"
 
-	grpcapp "github.com/stfprod17/sso/internal/config/app/grpc"
-	"github.com/stfprod17/sso/internal/config/services/auth"
-	"github.com/stfprod17/sso/internal/storage/sqlite"
+	grpcapp "github.com/stfprod17/go-microservices/sso/internal/config/app/grpc"
+	"github.com/stfprod17/go-microservices/sso/internal/config/services/auth"
+	"github.com/stfprod17/go-microservices/sso/internal/storage/sqlite"
 )
 
 type App struct {

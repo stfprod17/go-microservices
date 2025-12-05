@@ -7,9 +7,9 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/stfprod17/sso/internal/config/domain/models"
-	"github.com/stfprod17/sso/internal/config/lib/jwt"
-	"github.com/stfprod17/sso/internal/storage"
+	"github.com/stfprod17/go-microservices/sso/internal/config/domain/models"
+	"github.com/stfprod17/go-microservices/sso/internal/config/lib/jwt"
+	"github.com/stfprod17/go-microservices/sso/internal/storage"
 	"golang.org/x/crypto/bcrypt"
 )
 

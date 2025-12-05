@@ -6,7 +6,7 @@ import (
 
 	"github.com/brianvoe/gofakeit/v6"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/stfprod17/sso/tests/migrations/suite"
+	"github.com/stfprod17/go-microservices/sso/tests/migrations/suite"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

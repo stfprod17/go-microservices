@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/stfprod17/sso/internal/config/domain/models"
-	"github.com/stfprod17/sso/internal/storage"
+	"github.com/stfprod17/go-microservices/sso/internal/config/domain/models"
+	"github.com/stfprod17/go-microservices/sso/internal/storage"
 )
 
 type Storage struct {

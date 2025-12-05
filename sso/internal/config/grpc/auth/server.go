@@ -1,13 +1,13 @@
-package authgrpc
+package auth
 
 import (
 	"context"
 	"errors"
 
-	"github.com/stfprod17/sso/internal/storage"
+	"github.com/stfprod17/go-microservices/sso/internal/storage"
 
+	"github.com/stfprod17/go-microservices/sso/internal/config/services/auth"
 	ssov1 "github.com/stfprod17/protos/gen/go/sso"
-	"github.com/stfprod17/sso/internal/config/services/auth"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

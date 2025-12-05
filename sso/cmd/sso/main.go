@@ -6,9 +6,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/stfprod17/sso/internal/config"
-	"github.com/stfprod17/sso/internal/config/app"
-	"github.com/stfprod17/sso/internal/config/lib/logger/handlers/slogpretty"
+	"github.com/stfprod17/go-microservices/sso/internal/config"
+	"github.com/stfprod17/go-microservices/sso/internal/config/app"
+	"github.com/stfprod17/go-microservices/sso/internal/config/lib/logger/handlers/slogpretty"
 )
 
 const (

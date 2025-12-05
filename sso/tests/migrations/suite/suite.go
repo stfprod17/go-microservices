@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/stfprod17/go-microservices/sso/internal/config"
 	ssov1 "github.com/stfprod17/protos/gen/go/sso"
-	"github.com/stfprod17/sso/internal/config"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )
